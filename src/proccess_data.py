@@ -8,10 +8,9 @@ def get_sample_data(path, part_size):
     n_zero = len(zero_class)
     n_one = len(one_class)
 
-    zero_sample = zero_class.sample(int(n_zero * part_size))
-    one_sample = one_class.sample(int(n_one * part_size))
+    zero_sample = zero_class.sample(int(n_zero * part_size), random_state=42)
 
-    res_sample = pd.concat([zero_sample, one_sample], ignore_index=True)
+    res_sample = pd.concat([zero_sample, one_class], ignore_index=True)
     save_path = '../data/small_sample.csv'
     res_sample.to_csv(save_path)
 

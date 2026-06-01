@@ -1,0 +1,37 @@
+# Core
+numpy
+pandas
+scipy
+scikit-learn
+
+# Parquet support
+pyarrow
+fastparquet
+
+# Visualization / notebooks
+matplotlib
+seaborn
+jupyter
+jupyterlab
+ipykernel
+ipywidgets
+tqdm
+
+# Models
+lightgbm
+catboost
+xgboost
+
+# Optimization
+optuna
+optuna-integration
+
+# Deep learning
+torch
+torchvision
+torchaudio
+
+# Utils
+joblib
+pyyaml
+python-dotenv

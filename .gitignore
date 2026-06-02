@@ -4,20 +4,12 @@
 /processed_data/
 
 # Local artifacts
-/models/
 /artifacts/
 /outputs/
 /submissions/
 /mlruns/
-/lgbm_models/
-/random_forest_models/
-/mlp_models/
-/wide_deep_models/
-*_models/
 *_optuna_log/
-*.pkl
-*.pt
-*.pth
+/models
 
 # Notebook artifacts
 .ipynb_checkpoints/

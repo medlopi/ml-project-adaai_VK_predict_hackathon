@@ -18,6 +18,8 @@ ipywidgets
 tqdm
 
 # Models
+flaml
+libomp
 lightgbm
 catboost
 xgboost

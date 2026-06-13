@@ -7,10 +7,10 @@
 # Local artifacts
 /artifacts/
 /outputs/
-/submissions/
 /mlruns/
 *_optuna_log/
 /models
+/model_outputs*
 
 # Notebook artifacts
 .ipynb_checkpoints/

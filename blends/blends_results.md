@@ -1,6 +1,6 @@
-Лучший private score:  **0.71454** (`strat2_double_logistic_02_p_4.13.csv`)
+Лучший private score:  **0.71513** (`overdrive_p_4.90__flaml_0.100.csv`)
 
-Лучший public score: **0.69265** (`mass_blend_20_models_6_pow_2.57.csv`)
+Лучший public score: **0.69315** (`heavy_blend_04__p_4.47__f27_0.127__m10_0.099.csv`)
 
 Папка blends
 
@@ -27,7 +27,7 @@
 | `mass_blend_17_models_6_pow_3.4.csv` | 0.70295 | 0.68816 |
 | `mass_blend_18_models_4_pow_5.49.csv` | 0.69740 | 0.68128 |
 | `mass_blend_19_models_9_pow_4.67.csv` | 0.70610 | 0.68417 |
-| `mass_blend_20_models_6_pow_2.57.csv` | 0.70539 | **0.69265** |
+| `mass_blend_20_models_6_pow_2.57.csv` | 0.70539 | 0.69265 |
 | `focused_blend_01_models_11_pow_2.77.csv` | 0.70531 | 0.68759 |
 | `focused_blend_02_models_8_pow_3.58.csv` | 0.70744 | 0.68633 |
 | `focused_blend_03_models_8_pow_3.04.csv` | 0.70501 | 0.68601 |
@@ -81,7 +81,7 @@
 | `strat1_inverted_core_11_p_4.46.csv` | 0.71030 | 0.68608 |
 | `strat1_inverted_core_12_p_4.05.csv` | 0.71381 | 0.69148 |
 | `strat2_double_logistic_01_p_4.21.csv` | 0.71449 | 0.69183 |
-| `strat2_double_logistic_02_p_4.13.csv` | **0.71454** | 0.69152 |
+| `strat2_double_logistic_02_p_4.13.csv` | 0.71454 | 0.69152 |
 | `strat2_double_logistic_03_p_4.22.csv` | 0.71437 | 0.69130 |
 | `strat2_double_logistic_04_p_4.73.csv` | 0.71435 | 0.69122 |
 | `strat2_double_logistic_05_p_4.19.csv` | 0.71448 | 0.69213 |
@@ -100,5 +100,102 @@
 | `final_shot_03_balanced_p3.95.csv` | 0.71440 | 0.69184 |
 | `final_shot_04_flaml_boost_p4.05.csv` | 0.71439 | 0.69248 |
 | `final_shot_05_smooth_p3.85.csv` | 0.71436 | 0.69144 |
-
-Продолжение следует...
+| `00__submission_mlp_neural_network__corr_0.414.csv` | 0.71285 | 0.68961 |
+| `01__submission_mlp_neural_network__corr_0.448.csv` | 0.71380 | 0.69101 |
+| `02__submission_sgd_modified_huber_v3__corr_0.532.csv` | 0.71240 | 0.68937 |
+| `03__submission_lgb_rf_v3__corr_0.57.csv` | 0.71212 | 0.68897 |
+| `04__submission_sgd_modified_huber_v3__corr_0.583.csv` | 0.71372 | 0.69096 |
+| `05__submission_lgb_rf_v3__corr_0.586.csv` | 0.71256 | 0.68978 |
+| `06__rnn_top300_0.62366__corr_0.645.csv` | 0.71190 | 0.68920 |
+| `07__submission_mlp_quantile_v3__corr_0.65.csv` | 0.71388 | 0.69135 |
+| `08__rnn_top300_0.62366__corr_0.654.csv` | 0.71281 | 0.69065 |
+| `09__submission_extra_trees_v3__corr_0.663.csv` | 0.71316 | 0.69139 |
+| `10__submission_mlp_quantile_v3__corr_0.665.csv` | 0.71452 | 0.69272 |
+| `11__submission_extra_trees_v3__corr_0.674.csv` | 0.71307 | 0.69230 |
+| `12__submission_random_forest__corr_0.695.csv` | 0.71283 | 0.68985 |
+| `13__submission_random_forest__corr_0.699.csv` | 0.71311 | 0.69065 |
+| `14__submission_extratrees_v2__pca_svd_stack_fullfit__corr_0.7.csv` | 0.71301 | 0.69123 |
+| `15__tabm_top500_magic_meta_0.65617__corr_0.71.csv` | 0.71418 | 0.69180 |
+| `16__submission_extratrees_v2_pca_svd_stack_fullfit__corr_0.711.csv` | 0.71321 | 0.69077 |
+| `17__tabm_top500_magic_meta_0.65617__corr_0.711.csv` | 0.71367 | 0.69070 |
+| `18__submission_random_forest_balanced_v3__corr_0.721.csv` | 0.71351 | 0.69179 |
+| `19__submission_random_forest_balanced_v3__corr_0.727.csv` | 0.71403 | 0.69131 |
+| `20__flaml_top500_magic_meta_0.66377__corr_0.757.csv` | 0.71417 | 0.69230 |
+| `21__flaml_top500_clean_0.66212__corr_0.758.csv` | 0.71413 | 0.69260 |
+| `22__submission_extratrees_v2_pca_svd_stack__corr_0.759.csv` | 0.71398 | 0.69181 |
+| `23__submission_lgb_peak_dart_fullfit__corr_0.759.csv` | 0.71383 | 0.69036 |
+| `24__submission_lgb_peak_dart_fullfit__corr_0.763.csv` | 0.71309 | 0.68821 |
+| `25__flaml_top500_magic_meta_0.66377__corr_0.768.csv` | 0.71373 | 0.69149 |
+| `26__flaml_top500_clean_0.66212__corr_0.769.csv` | 0.71374 | 0.69172 |
+| `27__flaml_all_train_fields_0.66582__corr_0.769.csv` | 0.71491 | 0.69214 |
+| `28__submission_xgb_depth6_regularized_v3__corr_0.775.csv` | 0.71370 | 0.69171 |
+| `29__submission_extratrees_v2_pca_svd_stack__corr_0.775.csv` | 0.71428 | 0.69133 |
+| `priv_blend_01__p_4.39__f27_0.043__m10_0.051.csv` | 0.71479 | 0.69289 |
+| `priv_blend_02__p_4.46__f27_0.056__m10_0.037.csv` | 0.71484 | 0.69277 |
+| `priv_blend_03__p_4.34__f27_0.043__m10_0.030.csv` | 0.71474 | 0.69293 |
+| `priv_blend_04__p_4.23__f27_0.056__m10_0.040.csv` | 0.71480 | 0.69243 |
+| `priv_blend_05__p_4.04__f27_0.061__m10_0.047.csv` | 0.71438 | 0.69228 |
+| `priv_blend_06__p_4.33__f27_0.072__m10_0.040.csv` | 0.71503 | 0.69234 |
+| `priv_blend_07__p_4.17__f27_0.044__m10_0.051.csv` | 0.71474 | 0.69255 |
+| `priv_blend_08__p_4.38__f27_0.040__m10_0.032.csv` | 0.71468 | 0.69259 |
+| `priv_blend_09__p_4.05__f27_0.043__m10_0.047.csv` | 0.71457 | 0.69258 |
+| `priv_blend_10__p_4.1__f27_0.065__m10_0.041.csv` | 0.71469 | 0.69241 |
+| `priv_blend_11__p_4.23__f27_0.056__m10_0.043.csv` | 0.71460 | 0.69276 |
+| `priv_blend_12__p_4.35__f27_0.049__m10_0.030.csv` | 0.71470 | 0.69231 |
+| `heavy_blend_01__p_4.36__f27_0.064__m10_0.081.csv` | 0.71377 | 0.69304 |
+| `heavy_blend_02__p_4.18__f27_0.163__m10_0.065.csv` | 0.71392 | 0.69281 |
+| `heavy_blend_03__p_4.24__f27_0.123__m10_0.090.csv` | 0.71396 | 0.69314 |
+| `heavy_blend_04__p_4.47__f27_0.127__m10_0.099.csv` | 0.71379 | **0.69315** |
+| `heavy_blend_05__p_3.95__f27_0.175__m10_0.099.csv` | 0.71274 | 0.69298 |
+| `heavy_blend_06__p_4.52__f27_0.156__m10_0.087.csv` | 0.71367 | 0.69261 |
+| `heavy_blend_07__p_3.96__f27_0.173__m10_0.072.csv` | 0.71284 | 0.69306 |
+| `heavy_blend_08__p_4.16__f27_0.176__m10_0.094.csv` | 0.71332 | 0.69267 |
+| `heavy_blend_09__p_3.95__f27_0.146__m10_0.086.csv` | 0.71370 | 0.69275 |
+| `heavy_blend_10__p_4.09__f27_0.178__m10_0.088.csv` | 0.71320 | 0.69279 |
+| `heavy_blend_11__p_4.5__f27_0.176__m10_0.063.csv` | 0.71393 | 0.69242 |
+| `heavy_blend_12__p_4.33__f27_0.164__m10_0.098.csv` | 0.71373 | 0.69295 |
+| `heavy_blend_13__p_4.58__f27_0.176__m10_0.067.csv` | 0.71386 | 0.69265 |
+| `heavy_blend_14__p_4.23__f27_0.114__m10_0.062.csv` | 0.71441 | 0.69280 |
+| `heavy_blend_15__p_4.55__f27_0.123__m10_0.069.csv` | 0.71413 | 0.69304 |
+| `div_blend_01__p_4.17__sgd_0.023__rnn_0.017.csv` | 0.71372 | 0.69046 |
+| `div_blend_02__p_4.31__sgd_0.010__rnn_0.016.csv` | 0.71363 | 0.69045 |
+| `div_blend_03__p_4.36__sgd_0.020__rnn_0.016.csv` | 0.71377 | 0.69122 |
+| `div_blend_04__p_4.11__sgd_0.011__rnn_0.030.csv` | 0.71350 | 0.69018 |
+| `div_blend_05__p_4.14__sgd_0.011__rnn_0.025.csv` | 0.71354 | 0.69101 |
+| `div_blend_06__p_4.37__sgd_0.021__rnn_0.029.csv` | 0.71323 | 0.69040 |
+| `div_blend_07__p_4.16__sgd_0.020__rnn_0.024.csv` | 0.71345 | 0.69080 |
+| `div_blend_08__p_4.11__sgd_0.020__rnn_0.018.csv` | 0.71363 | 0.69074 |
+| `div_blend_09__p_4.33__sgd_0.016__rnn_0.029.csv` | 0.71341 | 0.69073 |
+| `div_blend_10__p_4.23__sgd_0.013__rnn_0.027.csv` | 0.71344 | 0.69062 |
+| `div_blend_11__p_4.17__sgd_0.012__rnn_0.029.csv` | 0.71349 | 0.69069 |
+| `div_blend_12__p_4.16__sgd_0.011__rnn_0.025.csv` | 0.71356 | 0.69073 |
+| `surgical_blend_01__p_4.11__flamlweight_0.048.csv` | 0.71489 | 0.69184 |
+| `surgical_blend_02__p_4.13__flamlweight_0.056.csv` | 0.71488 | 0.69191 |
+| `surgical_blend_03__p_4.19__flamlweight_0.064.csv` | 0.71493 | 0.69210 |
+| `surgical_blend_04__p_4.18__flamlweight_0.072.csv` | 0.71497 | 0.69209 |
+| `surgical_blend_05__p_4.24__flamlweight_0.080.csv` | 0.71493 | 0.69215 |
+| `surgical_blend_06__p_4.17__flamlweight_0.088.csv` | 0.71495 | 0.69202 |
+| `surgical_blend_07__p_4.18__flamlweight_0.096.csv` | 0.71505 | 0.69201 |
+| `surgical_blend_08__p_4.24__flamlweight_0.0104.csv` | 0.71506 | 0.69216 |
+| `surgical_blend_09__p_4.22__flamlweight_0.112.csv` | 0.71503 | 0.69206 |
+| `surgical_blend_10__p_4.25__flamlweight_0.120.csv` | 0.71503 | 0.69203 |
+| `surgical_blend_11__p_4.22__flamlweight_0.128.csv` | 0.71485 | 0.69217 |
+| `surgical_blend_12__p_4.11__flamlweight_0.136.csv` | 0.71480 | 0.69218 |
+| `final_grid_01__p_4.13__flaml_0.104__mlp_0.015.csv` | 0.71480 | 0.69214 |
+| `final_grid_02__p_4.13__flaml_0.104__mlp_0.022.csv` | 0.71475 | 0.69211 |
+| `final_grid_03__p_4.13__flaml_0.104__mlp_0.030.csv` | 0.71469 | 0.69207 |
+| `final_grid_04__p_4.13__flaml_0.104__mlp_0.037.csv` | 0.71464 | 0.69203 |
+| `final_grid_05__p_4.13__flaml_0.104__mlp_0.045.csv` | 0.71456 | 0.69197 |
+| `final_grid_06__p_4.13__flaml_0.104__mlp_0.052.csv` | 0.71448 | 0.69192 |
+| `final_grid_07__p_4.13__flaml_0.104__mlp_0.059.csv` | 0.71441 | 0.69186 |
+| `final_grid_08__p_4.13__flaml_0.104__mlp_0.067.csv` | 0.71434 | 0.69178 |
+| `tuning_p_01__p_4.00__flaml_0.100.csv` | 0.71482 | 0.69219 |
+| `tuning_p_02__p_4.10__flaml_0.100.csv` | 0.71492 | 0.69218 |
+| `tuning_p_03__p_4.20__flaml_0.100.csv` | 0.71498 | 0.69218 |
+| `tuning_p_04__p_4.30__flaml_0.100.csv` | 0.71504 | 0.69218 |
+| `tuning_p_05__p_4.40__flaml_0.100.csv` | 0.71505 | 0.69219 |
+| `tuning_p_06__p_4.50__flaml_0.100.csv` | 0.71505 | 0.69219 |
+| `tuning_p_07__p_4.60__flaml_0.100.csv` | 0.71507 | 0.69218 |
+| `overdrive_p_4.70__flaml_0.100.csv` | 0.71508 | 0.69217 |
+| `overdrive_p_4.80__flaml_0.100.csv` | 0.71510 | 0.69216 |
+| `overdrive_p_4.90__flaml_0.100.csv` | **0.71513** | 0.69213 |
